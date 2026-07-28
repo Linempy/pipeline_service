@@ -118,7 +118,7 @@ curl http://localhost:8080/pipelines/<pipelineId>/execution-order
 ## Структура проекта
 
 - `controller` - REST endpoints;
-- `service` - бизнес-правила и синхронизация операций;
+- `service` - бизнес-правил;
 - `model` - сущности пайплайна, узлов и зависимостей;
 - `repository` - репозиторий;
 - `utils` - алгоритмы работы с графом;
